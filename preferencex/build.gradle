@@ -16,6 +16,11 @@ android {
             consumerProguardFiles 'proguard-rules.pro'
         }
     }
+    android {
+        lintOptions {
+            abortOnError false
+        }
+    }
 }
 
 ext {
